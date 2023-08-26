@@ -1,0 +1,133 @@
+this is day 1
+
+
+
+fahim.ferdous@SPLDUIT335 MINGW64 ~
+$ cd d:
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d
+$ ls
+'$MfeDeepRem'/        'Investment _web_application'/
+'$RECYCLE.BIN'/       'New folder'/
+'1. Ongoing'/          PUSTAADB/
+'2. Development'/     'System Volume Information'/
+'3. Github-Project'/  'Video Record'/
+ DEVELOPMENT/          eticket/
+'EQMS CDR'/
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d
+$ cd '3. Github-Project'
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project
+$ ls -a
+./  ../
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project
+$ git init
+Initialized empty Git repository in D:/3. Github-Project/.git/
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ ls -a
+./  ../  .git/
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ touch day1.txt
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ ls -a
+./  ../  .git/  day1.txt
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ start notepad day1.txt
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        day1.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git add .
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   day1.txt
+
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git restore day2.txt
+
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git rm --cached day2.txt
+rm 'day2.txt'
+
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git diff
+diff --git a/day1.txt b/day1.txt
+index 9265b6d..e5866f0 100644
+--- a/day1.txt
++++ b/day1.txt
+
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git commit -m "Day 1 DATA"
+[master (root-commit) 6c74f55] Day 1 DATA
+ 2 files changed, 143 insertions(+)
+ create mode 100644 day1.txt
+ create mode 100644 day2.txt
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git log
+commit 6c74f5549b002ffc765f397dbe63e6cfa4d70eb4 (HEAD -> master)
+Author: fahim.ferdous <fahim.ferdous.335@gmail.com>
+Date:   Sat Aug 26 12:03:25 2023 +0600
+
+    Day 1 DATA
+
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git reset --soft Head^
+fatal: ambiguous argument 'Head^': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git reset Head^
+fatal: ambiguous argument 'Head^': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git reset --hard Head^
+fatal: ambiguous argument 'Head^': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git log
+commit 6c74f5549b002ffc765f397dbe63e6cfa4d70eb4 (HEAD -> master)
+Author: fahim.ferdous <fahim.ferdous.335@gmail.com>
+Date:   Sat Aug 26 12:03:25 2023 +0600
+
+    Day 1 DATA
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git add . && git commit -m "Day 1-3 DATA added"
+[master 49cdc4a] Day 1-3 DATA added
+ 3 files changed, 203 insertions(+)
+ create mode 100644 day3.txt
+ create mode 100644 day4.txt
