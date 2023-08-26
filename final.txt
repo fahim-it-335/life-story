@@ -198,3 +198,29 @@ $ ls -a
 fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
 $  start notepad .gigignore
 
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git remote
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git remote add origin https://github.com/fahim-it-335/life-story.git
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git remote
+origin
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git remote -v
+origin  https://github.com/fahim-it-335/life-story.git (fetch)
+origin  https://github.com/fahim-it-335/life-story.git (push)
+
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git clone https://github.com/fahim-it-335/life-story.git
+Cloning into 'life-story'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
