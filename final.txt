@@ -185,3 +185,16 @@ fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project ((49cdc4a...))
 $ git checkout master
 Previous HEAD position was 49cdc4a Day 1-3 DATA added
 Switched to branch 'master'
+
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ touch .gigignore
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ ls -a
+./  ../  .gigignore  .git/  day1.txt  day2.txt  day3.txt  day4.txt  final.txt
+
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$  start notepad .gigignore
+
