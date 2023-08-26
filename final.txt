@@ -224,3 +224,35 @@ remote: Compressing objects: 100% (3/3), done.
 remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
 Receiving objects: 100% (6/6), done.
 
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project (master)
+$ git push --set-upstream origin master
+info: please complete authentication in your browser...
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (25/25), 1.27 MiB | 889.00 KiB/s, done.
+Total 25 (delta 10), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (10/10), done.
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/fahim-it-335/life-story/pull/new/master
+remote:
+To https://github.com/fahim-it-335/life-story.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project/life-story (main)
+$ git push
+Enumerating objects: 14, done.
+Counting objects: 100% (14/14), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (12/12), 1.27 MiB | 880.00 KiB/s, done.
+Total 12 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/fahim-it-335/life-story.git
+   be26261..4de988a  main -> main
+
