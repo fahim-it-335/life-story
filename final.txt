@@ -1,4 +1,7 @@
-Final- Branch
+
+Final-Branch Update
+
+
 
 this is day 1
 
@@ -272,4 +275,48 @@ Updating 3cd554a..3f9095a
 Fast-forward
  final.txt | 3 ++-
  1 file changed, 2 insertions(+), 1 deletion(-)
+
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project/life-story (main)
+$ git branch
+* main
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project/life-story (main)
+$ git branch bug-fixed
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project/life-story (main)
+$ git branch
+  bug-fixed
+* main
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project/life-story (main)
+$ git checkout bug-fixed
+Switched to branch 'bug-fixed'
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project/life-story (bug-fixed)
+$ git branch
+* bug-fixed
+  main
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project/life-story (bug-fixed)
+$ git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project/life-story (main)
+$ git branch -d  bug-fixed
+Deleted branch bug-fixed (was c4bc4e4).
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project/life-story (main)
+$ git branch
+* main
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project/life-story (main)
+$ git checkout -b "bug-new"
+Switched to a new branch 'bug-new'
+
+fahim.ferdous@SPLDUIT335 MINGW64 /d/3. Github-Project/life-story (bug-new)
+$ git branch
+* bug-new
+  main
 
